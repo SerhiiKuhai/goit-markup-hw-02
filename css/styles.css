@@ -4,11 +4,12 @@
 	--hero-tex-color: #ffffff;
 	--hero-background-color: #2e2f42;
 	--logo-color-text: #4d5ae5;
-	--buttons-color: #f4f4fd;
-	--buttons-text-color: #4d5ae5;
-	--buttons-active-color: #4d5ae5;
-	--buttons-active-text-color: #f4f4fd;
+	--buttons-color: #4d5ae5;
+	--buttons-text-color: #ffffff;
+	--buttons-active-color: #404bbf;
+	--buttons-active-text-color: #ffffff;
 	--footer-text-color: #e7e9fc;
+	--footer-logo-color: #f4f4fd;
 	--footer-background-color: #2e2f42;
 	--background-color: ;
 	--nav-color: #4d5ae5;
@@ -21,7 +22,7 @@ body {
 	color: var(--main-text-color);
 	font-family: var(--main-font);
 	font-size: 16px;
-	line-height: 1.5;
+	background-color: #ffffff;
 	letter-spacing: 0.02em;
 }
 ul {
@@ -32,16 +33,24 @@ a {
 }
 
 /* page-header */
-.nav {
+.nav .link {
 	color: var(--secondary-text-color);
-	font-weight: 600;
+	font-weight: 700;
+	line-height: 1.5;
 }
+.contacts .link {
+	color: var(--secondary-text-color);
+	line-height: 1.5;
+}
+
 .logo {
-	font-family: Releway, sans-serif;
-	font-weight: 800;
+	font-family: Raleway, sans-serif;
+	color: var(--secondary-text-color);
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 1.33;
 	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 .logo-icon {
 	color: var(--logo-color-text);
@@ -60,20 +69,22 @@ a {
 }
 .hero-title {
 	color: var(--hero-tex-color);
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
 	text-align: center;
+	letter-spacing: 0.02em;
 }
 .button {
 	font-family: inherit;
 	color: var(--buttons-text-color);
 	background-color: var(--buttons-color);
-	font-weight: 600;
+	font-weight: 700;
 	text-align: center;
 	align-items: center;
 	letter-spacing: 0.04em;
 	cursor: pointer;
+	line-height: 1.5;
 }
 .btn {
 	line-height: 1.19;
@@ -98,23 +109,31 @@ a {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+
+.text {
+	line-height: 1.5;
+}
 .title {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.2;
 }
 .work-title,
 .employee-title {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
 }
-.work-title {
-	border: 1px solid #000000;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.employee {
+	background-color: #f4f4fd;
 }
 .footer {
-	color: var(--footer-text-color);
 	background-color: var(--footer-background-color);
+}
+.footer .logo {
+	color: var(--footer-logo-color);
+}
+.footer .text {
+	color: var(--footer-text-color);
 }
