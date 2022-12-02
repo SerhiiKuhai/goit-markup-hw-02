@@ -4,9 +4,9 @@
 	--hero-tex-color: #ffffff;
 	--hero-background-color: #2e2f42;
 	--logo-color-text: #4d5ae5;
-	--buttons-color: #4d5ae5;
-	--buttons-text-color: #ffffff;
-	--buttons-active-color: #404bbf;
+	--buttons-color: #f4f4fd;
+	--buttons-text-color: #4d5ae5;
+	--buttons-active-color: #4d5ae5;
 	--buttons-active-text-color: #ffffff;
 	--footer-text-color: #e7e9fc;
 	--footer-logo-color: #f4f4fd;
@@ -80,7 +80,8 @@ a {
 	color: var(--buttons-text-color);
 	background-color: var(--buttons-color);
 	font-weight: 700;
-	text-align: center;
+	font-size: 16px;
+	text-align: cen ter;
 	align-items: center;
 	letter-spacing: 0.04em;
 	cursor: pointer;
