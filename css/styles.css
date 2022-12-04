@@ -81,8 +81,7 @@ a {
 	background-color: var(--buttons-color);
 	font-weight: 700;
 	font-size: 16px;
-	text-align: cen ter;
-	align-items: center;
+	text-align: center;
 	letter-spacing: 0.04em;
 	cursor: pointer;
 	line-height: 1.5;
